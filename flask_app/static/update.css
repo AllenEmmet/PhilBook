@@ -1,0 +1,22 @@
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #52b3b6;
+}
+.bodybackground{
+    background-color:  #edc000;
+}
+.btn{
+    background-color: #f26249;
+}
+.contentstyle{
+    background-color: #f7e5ad;
+}
+.homelink{
+    text-decoration: none;
+    color: black;
+}

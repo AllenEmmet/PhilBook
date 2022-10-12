@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='update.css') }}">
+</head>
+<body class="bodybackground">
+    <div class="header" >
+        <h2>PhilBook</h2>
+        <h2 ><a href="/dashboard" class="homelink">Home</a></h2>
+        <h2>Welcome, {{post.user.first_name}}</h2>
+    </div>
+    <form action="/post/edit/{{post.id}}" method="post" >
+        <label for="content">Post:</label>
+        <textarea name="content" class="form-control h-100 contentstyle" style="height:fit-content">{{post.content}}</textarea>
+        <input class="form-control btn" type="submit" name="Create">
+    </form>
+</body>
+</html>

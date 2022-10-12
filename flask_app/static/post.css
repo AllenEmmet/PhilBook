@@ -1,0 +1,51 @@
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #52b3b6;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    background-color:  #edc000;
+    height:1000px;
+    
+}
+.subtitle1{
+    background-color: #ec2e3b;
+    padding: 15px;
+}
+.subtitle2{
+    background-color: #ff9b59;
+    padding: 15px;
+}
+.body1{
+    background-color:#f26249;
+    padding: 15px;
+    
+}
+.body2{
+    background-color:#fed58d;
+}
+.buttonleft{
+    background-color: #913a2c;
+    /* #3d8588; */
+    color: white;
+    
+}
+.buttonright{
+    background-color: #995d36;
+    color: white;
+}
+.homelink{
+    text-decoration: none;
+    color: black;
+}
